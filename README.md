@@ -22,11 +22,15 @@ Server:
   
 # Client commands:
 
-  -> exit()                           -      Exits the chatroom and disconnects the client.
-  -> ListUsers()                      -      Lists all the users currently in the chatroom.
-  -> Upload: ABSOLUTE_IMAGE_PATH      -      Uploads the image, at the image path specified, to the server.
-  -> Download: IMAGE_NAME             -      Downloads the image of the name specified.
-  -> DM USERNAME MESSAGE              -      Direct messages the MESSAGE to the user with username USERNAME
+-> exit()                           -      Exits the chatroom and disconnects the client.
+
+-> ListUsers()                      -      Lists all the users currently in the chatroom.
+
+-> Upload: ABSOLUTE_IMAGE_PATH      -      Uploads the image, at the image path specified, to the server.
+
+-> Download: IMAGE_NAME             -      Downloads the image of the name specified.
+
+-> DM USERNAME MESSAGE              -      Direct messages the MESSAGE to the user with username USERNAME
 
 # Running project
 
@@ -42,5 +46,4 @@ Server:
   6. Navigate to /bin (cd bin) and input 'java firstClient' (3rd command line window)
     6.1 Follow instrutions of the client program until connected
   7. Note step 5/6 can be repeated any number of times to populate the chatroom
-  
   8. You can run the project in an IDE, but the necessary imports etc are then up to the user.
