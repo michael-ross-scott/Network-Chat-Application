@@ -37,13 +37,21 @@ Server:
   1. Open Command Line
   2. Input 'make all'
   3. Open three seperate command line windows (one for server, two for clients)
+    
     3.1 Alternatively you can run the programs on seperate computers connected to the same network
     3.2 Please ensure the ports you give the program are open if you are running on seperate computers
+    
   4. Navigate to /bin (cd bin) and input 'java server' (1st command line window)
+  
     4.1. Follow instructions of the server program and stop when it outputs "awaiting connections"
+    
   5. Navigate to /bin (cd bin) and input 'java client' (2nd command line window)
+  
     5.1 Follow instructions of the client program until connected to the server
+    
   6. Navigate to /bin (cd bin) and input 'java firstClient' (3rd command line window)
+  
     6.1 Follow instrutions of the client program until connected
+    
   7. Note step 5/6 can be repeated any number of times to populate the chatroom
   8. You can run the project in an IDE, but the necessary imports etc are then up to the user.
